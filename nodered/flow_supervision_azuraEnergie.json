@@ -1,0 +1,2034 @@
+[
+    {
+        "id": "4847aeaaefab87c8",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f8e788f712735005",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "Tension_T",
+        "topic": "/sammoroc@gmail.com/Tension_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 80,
+        "wires": [
+            [
+                "26ac7926364a14c5"
+            ]
+        ]
+    },
+    {
+        "id": "2eb82b7847f8a417",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "Courant_T",
+        "topic": "/sammoroc@gmail.com/Courant_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 140,
+        "wires": [
+            [
+                "db35ffd0d3048a51"
+            ]
+        ]
+    },
+    {
+        "id": "3f231111dc306cc8",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "PA_T",
+        "topic": "/sammoroc@gmail.com/PA_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 320,
+        "wires": [
+            [
+                "a403f6ec3d8cb440"
+            ]
+        ]
+    },
+    {
+        "id": "5380a542d69cf1a2",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "PR_T",
+        "topic": "/sammoroc@gmail.com/PR_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 380,
+        "wires": [
+            [
+                "7c9fbe25d6a4f5ad"
+            ]
+        ]
+    },
+    {
+        "id": "ac1db59c12288543",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "PAP_T",
+        "topic": "/sammoroc@gmail.com/PAP_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 440,
+        "wires": [
+            [
+                "8fedd057ab44e904"
+            ]
+        ]
+    },
+    {
+        "id": "b57ea6152b1672d4",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "EA_T",
+        "topic": "/sammoroc@gmail.com/EA_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 500,
+        "wires": [
+            [
+                "7508534e504f74c6"
+            ]
+        ]
+    },
+    {
+        "id": "54536fab36048920",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "ER_T",
+        "topic": "/sammoroc@gmail.com/ER_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 560,
+        "wires": [
+            [
+                "aa5e7b1e0852b5e1"
+            ]
+        ]
+    },
+    {
+        "id": "06c5c6b78b9a9204",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "EAP_T",
+        "topic": "/sammoroc@gmail.com/EAP_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 620,
+        "wires": [
+            [
+                "c6e063255c84f205"
+            ]
+        ]
+    },
+    {
+        "id": "b171bb637d59a039",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "FP_T",
+        "topic": "/sammoroc@gmail.com/FP_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 200,
+        "wires": [
+            [
+                "3ddeca7e639808ef"
+            ]
+        ]
+    },
+    {
+        "id": "7d337c40cf859bb6",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "Fréquence_T",
+        "topic": "/sammoroc@gmail.com/Fréquence_T",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 260,
+        "wires": [
+            [
+                "e1d253fadfbc4650"
+            ]
+        ]
+    },
+    {
+        "id": "efa53454bda23299",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Tension",
+        "info": "",
+        "x": 150,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d9499167ad56b74d",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Courant",
+        "info": "",
+        "x": 150,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "34cd9ac1d37e78dc",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Fréquence",
+        "info": "",
+        "x": 140,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "aa7b581fcfa980d4",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Puissance reactive",
+        "info": "",
+        "x": 110,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4ada44aafa231e67",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Puissance apparente",
+        "info": "",
+        "x": 100,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b575e2c9c437f917",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Energie Active",
+        "info": "",
+        "x": 130,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "8baf388ed531849c",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Energie reactive",
+        "info": "",
+        "x": 120,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "349ed195b946fee7",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Energie apparente",
+        "info": "",
+        "x": 110,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "1b65b246509444b8",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Facteur de puissance",
+        "info": "",
+        "x": 100,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "df963ebae77e51a7",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Puissance active",
+        "info": "",
+        "x": 120,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "26ac7926364a14c5",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 2",
+        "func": "msg.topic = \"tension\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 80,
+        "wires": [
+            [
+                "0d67b22ef6dae2c4"
+            ]
+        ]
+    },
+    {
+        "id": "ffa80fd591d390d3",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 3",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 80,
+        "wires": [
+            [
+                "9e8bca4cb85a3dfe"
+            ]
+        ]
+    },
+    {
+        "id": "9e8bca4cb85a3dfe",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 4",
+        "func": "msg.topic = \"tension\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 80,
+        "wires": [
+            [
+                "19db82efad77c077"
+            ]
+        ]
+    },
+    {
+        "id": "0d67b22ef6dae2c4",
+        "type": "binary",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "property": "payload",
+        "pattern": "l32f => tension",
+        "x": 610,
+        "y": 80,
+        "wires": [
+            [
+                "ffa80fd591d390d3"
+            ]
+        ]
+    },
+    {
+        "id": "a403f6ec3d8cb440",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 5",
+        "func": "msg.topic = \"puissance_active\";\n\nlet payload = msg.payload;\n\n// Si c'est un Buffer → lire comme float\nif (Buffer.isBuffer(payload)) {\n    let buf = Buffer.from(payload);\n    msg.payload = Number(buf.readFloatBE(0).toFixed(2));\n}\n// Si c'est un nombre → garder tel quel\nelse if (typeof payload === \"number\") {\n    msg.payload = Number(payload.toFixed(2));\n}\n// Si c'est une string → convertir en nombre\nelse if (typeof payload === \"string\") {\n    let val = parseFloat(payload);\n    msg.payload = isNaN(val) ? 0 : Number(val.toFixed(2));\n}\n// Sinon → 0\nelse {\n    msg.payload = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 320,
+        "wires": [
+            [
+                "3bea2020ff9734ea"
+            ]
+        ]
+    },
+    {
+        "id": "db35ffd0d3048a51",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 6",
+        "func": "msg.topic = \"courant\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "08f57dc097bd0ad2"
+            ]
+        ]
+    },
+    {
+        "id": "9d6bc61d6f2ca329",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 7",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 140,
+        "wires": [
+            [
+                "e2a7639532f08943"
+            ]
+        ]
+    },
+    {
+        "id": "e2a7639532f08943",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 8",
+        "func": "msg.topic = \"courant\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 140,
+        "wires": [
+            [
+                "19db82efad77c077"
+            ]
+        ]
+    },
+    {
+        "id": "08f57dc097bd0ad2",
+        "type": "binary",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "property": "payload",
+        "pattern": "l32f => courant",
+        "x": 610,
+        "y": 140,
+        "wires": [
+            [
+                "9d6bc61d6f2ca329"
+            ]
+        ]
+    },
+    {
+        "id": "3ddeca7e639808ef",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 9",
+        "func": "msg.topic = \"facteur_puissance\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "a4fdf3e301f54baf"
+            ]
+        ]
+    },
+    {
+        "id": "cacd964cd77940c5",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 10",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 200,
+        "wires": [
+            [
+                "836a51492ebf6bcf"
+            ]
+        ]
+    },
+    {
+        "id": "836a51492ebf6bcf",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 11",
+        "func": "msg.topic = \"facteur_puissance\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 200,
+        "wires": [
+            [
+                "19db82efad77c077"
+            ]
+        ]
+    },
+    {
+        "id": "a4fdf3e301f54baf",
+        "type": "binary",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "property": "payload",
+        "pattern": "l32f => powerfactor",
+        "x": 610,
+        "y": 200,
+        "wires": [
+            [
+                "cacd964cd77940c5"
+            ]
+        ]
+    },
+    {
+        "id": "e1d253fadfbc4650",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 12",
+        "func": "msg.topic = \"frequence\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "73da735ae21d080f"
+            ]
+        ]
+    },
+    {
+        "id": "8a527489874838a8",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 13",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 260,
+        "wires": [
+            [
+                "a5cddbda66a47389"
+            ]
+        ]
+    },
+    {
+        "id": "a5cddbda66a47389",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 14",
+        "func": "msg.topic = \"frequence\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 260,
+        "wires": [
+            [
+                "19db82efad77c077"
+            ]
+        ]
+    },
+    {
+        "id": "73da735ae21d080f",
+        "type": "binary",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "property": "payload",
+        "pattern": "l32f => frequance",
+        "x": 610,
+        "y": 260,
+        "wires": [
+            [
+                "8a527489874838a8"
+            ]
+        ]
+    },
+    {
+        "id": "7c9fbe25d6a4f5ad",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 18",
+        "func": "msg.topic = \"puissance_reactive\";\nmsg.payload = msg.payload[0];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 380,
+        "wires": [
+            [
+                "3bea2020ff9734ea"
+            ]
+        ]
+    },
+    {
+        "id": "8fedd057ab44e904",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 19",
+        "func": "msg.topic = \"puissance_apparente\";\n\nlet val = msg.payload;\n\n// Si tableau → prendre le premier élément\nif (Array.isArray(val)) val = val[0];\n\n// Si Buffer → lire comme float\nif (Buffer.isBuffer(val)) {\n    val = Buffer.from(val).readFloatBE(0);\n}\n\n// Convertir en nombre\nval = parseFloat(val);\n\n// Si pas un nombre valide → mettre 0\nmsg.payload = isNaN(val) ? 0 : Number(val.toFixed(2));\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 440,
+        "wires": [
+            [
+                "3bea2020ff9734ea"
+            ]
+        ]
+    },
+    {
+        "id": "3bea2020ff9734ea",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 20",
+        "func": "let data = flow.get(\"puissances\") || {};\n\nif (!msg.topic) return null;\n\ndata[msg.topic] = msg.payload;\nflow.set(\"puissances\", data);\n\n// si les 3 valeurs sont reçues\nif (data.puissance_active !== undefined &&\n    data.puissance_reactive !== undefined &&\n    data.puissance_apparente !== undefined) {\n\n    let msg_out = { payload: data };\n    flow.set(\"puissances\", {}); // reset pour le prochain cycle\n    return msg_out;\n}\n\nreturn null; // sinon attendre les autres valeurs",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "ed1a3a48ae3b928d"
+            ]
+        ]
+    },
+    {
+        "id": "ed1a3a48ae3b928d",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 21",
+        "func": "// msg.payload contient déjà toutes les puissances\nlet p = msg.payload;\n\nmsg.payload = {\n    puissance_active: p.puissance_active,\n    puissance_reactive: p.puissance_reactive,\n    puissance_apparente: p.puissance_apparente\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 380,
+        "wires": [
+            [
+                "885ac5a8ce6a406c"
+            ]
+        ]
+    },
+    {
+        "id": "885ac5a8ce6a406c",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 22",
+        "func": "// Stocker puissances dans global\nglobal.set(\"puissance_active\", msg.payload[\"puissance_active\"]);\nglobal.set(\"puissance_reactive\", msg.payload[\"puissance_reactive\"]);\nglobal.set(\"puissance_apparente\", msg.payload[\"puissance_apparente\"]);\nglobal.set(\"derniere_maj\", Date.now());\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7508534e504f74c6",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 23",
+        "func": "msg.topic = \"energie_active\";\n\nlet buf = Buffer.from(msg.payload);\nlet haute = buf.readUInt32BE(0);\nlet basse = buf.readUInt32BE(4);\nlet valeur_brute = haute * Math.pow(2, 32) + basse;\n\n// Adapter le diviseur selon la valeur affichée sur PM5300\nlet diviseur = 1000; // à ajuster\nmsg.payload = Number((valeur_brute / diviseur).toFixed(3));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 500,
+        "wires": [
+            [
+                "b1811c554675a4f1"
+            ]
+        ]
+    },
+    {
+        "id": "aa5e7b1e0852b5e1",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 24",
+        "func": "msg.topic = \"energie_reactive\";\n\nlet buf = Buffer.from(msg.payload);\nlet haute = buf.readUInt32BE(0);\nlet basse = buf.readUInt32BE(4);\nlet valeur_brute = haute * Math.pow(2, 32) + basse;\n\n// Adapter le diviseur selon la valeur affichée sur PM5300\nlet diviseur = 1000; // à ajuster\nmsg.payload = Number((valeur_brute / diviseur).toFixed(3));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 560,
+        "wires": [
+            [
+                "b1811c554675a4f1"
+            ]
+        ]
+    },
+    {
+        "id": "c6e063255c84f205",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 25",
+        "func": "msg.topic = \"energie_apparente\";\n\nlet buf = Buffer.from(msg.payload);\nlet haute = buf.readUInt32BE(0);\nlet basse = buf.readUInt32BE(4);\nlet valeur_brute = haute * Math.pow(2, 32) + basse;\n\n// Adapter le diviseur selon la valeur affichée sur PM5300\nlet diviseur = 1000; // à ajuster\nmsg.payload = Number((valeur_brute / diviseur).toFixed(3));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 620,
+        "wires": [
+            [
+                "b1811c554675a4f1"
+            ]
+        ]
+    },
+    {
+        "id": "19db82efad77c077",
+        "type": "join",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "4",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1130,
+        "y": 160,
+        "wires": [
+            [
+                "d7fbc7267feec8ef"
+            ]
+        ]
+    },
+    {
+        "id": "d7fbc7267feec8ef",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 26",
+        "func": "// Stocker tension courant frequence fp dans global\nglobal.set(\"tension\", msg.payload[\"tension\"]);\nglobal.set(\"courant\", msg.payload[\"courant\"]);\nglobal.set(\"frequence\", msg.payload[\"frequence\"]);\nglobal.set(\"facteur_puissance\", msg.payload[\"facteur_puissance\"]);\nglobal.set(\"derniere_maj\", Date.now());\nreturn null; // ne pas envoyer, juste stocker",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b1811c554675a4f1",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 27",
+        "func": "let data = flow.get(\"energie\") || {};\n\nif (!msg.topic) return null;\n\ndata[msg.topic] = msg.payload;\nflow.set(\"energie\", data);\n\n// si les 3 valeurs sont reçues\nif (data.energie_active !== undefined &&\n    data.energie_reactive !== undefined &&\n    data.energie_apparente !== undefined) {\n\n    let msg_out = { payload: data };\n    flow.set(\"energie\", {}); // reset pour le prochain cycle\n    return msg_out;\n}\n\nreturn null; // sinon attendre les autres valeurs",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 560,
+        "wires": [
+            [
+                "c87187425f4efb64"
+            ]
+        ]
+    },
+    {
+        "id": "c87187425f4efb64",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 28",
+        "func": "let p = msg.payload;\n\nmsg.payload = {\n    energie_active: p.energie_active,\n    energie_reactive: p.energie_reactive,\n    energie_apparente: p.energie_apparente\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 560,
+        "wires": [
+            [
+                "dec412400893a010"
+            ]
+        ]
+    },
+    {
+        "id": "dec412400893a010",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 29",
+        "func": "// Stocker énergies dans global\nglobal.set(\"energie_active\", msg.payload[\"energie_active\"]);\nglobal.set(\"energie_reactive\", msg.payload[\"energie_reactive\"]);\nglobal.set(\"energie_apparente\", msg.payload[\"energie_apparente\"]);\nglobal.set(\"derniere_maj\", Date.now());\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d7e73007a05a572",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 15",
+        "func": "function cleanVal(v) {\n    let n = parseFloat(v);\n    return isNaN(n) ? null : Number(n.toFixed(2));\n}\n\n// Lire toutes les valeurs\nlet tension_t    = cleanVal(global.get(\"tension\"));\nlet courant_t    = cleanVal(global.get(\"courant\"));\nlet frequence_t  = cleanVal(global.get(\"frequence\"));\nlet fp_t        = cleanVal(global.get(\"facteur_puissance\"));\nlet pa_t         = cleanVal(global.get(\"puissance_active\"));\nlet pr_t         = cleanVal(global.get(\"puissance_reactive\"));\nlet pap_t        = cleanVal(global.get(\"puissance_apparente\"));\nlet ea_t         = cleanVal(global.get(\"energie_active\"));\nlet er_t         = cleanVal(global.get(\"energie_reactive\"));\nlet eap_t        = cleanVal(global.get(\"energie_apparente\"));\n\n// Si une valeur critique est null → ne pas envoyer\nif (tension_t === null || courant_t === null || \n    frequence_t === null || ea_t === null) {\n    node.warn(\"Donnees pas encore pretes — attente...\");\n    return null; // ← ne publie rien !\n}\n\nmsg.payload = {\n    \"tension\":             tension_t,\n    \"courant\":             courant_t,\n    \"frequence\":           frequence_t,\n    \"facteur_puissance\":   fp_t ?? 0,\n    \"puissance_active\":    pa_t ?? 0,\n    \"puissance_reactive\":  pr_t ?? 0,\n    \"puissance_apparente\": pap_t ?? 0,\n    \"energie_active\":      ea_t,\n    \"energie_reactive\":    er_t ?? 0,\n    \"energie_apparente\":   eap_t ?? 0,\n    \"timestamp\":           new Date().toISOString(),\n    \"statut\":              (Date.now() - (global.get(\"derniere_maj\") || 0)) < 360000 \n                             ? \"connecte\" : \"deconnecte\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 740,
+        "wires": [
+            [
+                "384d10706c101748",
+                "8bb3ef4bbdd51c66"
+            ]
+        ]
+    },
+    {
+        "id": "e09999809bfbb547",
+        "type": "inject",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 370,
+        "y": 740,
+        "wires": [
+            [
+                "1d7e73007a05a572"
+            ]
+        ]
+    },
+    {
+        "id": "384d10706c101748",
+        "type": "debug",
+        "z": "4847aeaaefab87c8",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "8bb3ef4bbdd51c66",
+        "type": "mqtt out",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "topic": "agricole/site/total/telemetry",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "16709b3c17b1162c",
+        "x": 800,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "87fe0363446c2841",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "Tension_S",
+        "topic": "/sammoroc@gmail.com/Tension_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 900,
+        "wires": [
+            [
+                "74982394c1421502"
+            ]
+        ]
+    },
+    {
+        "id": "d73af3bc81e05f03",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "Courant_S",
+        "topic": "/sammoroc@gmail.com/Courant_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 960,
+        "wires": [
+            [
+                "8f806e02a15c566a"
+            ]
+        ]
+    },
+    {
+        "id": "8bc39238d408fc2a",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "PA_S",
+        "topic": "/sammoroc@gmail.com/PA_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1140,
+        "wires": [
+            [
+                "3f88def77421f367"
+            ]
+        ]
+    },
+    {
+        "id": "a4ebc3295b536d0b",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "PR_S",
+        "topic": "/sammoroc@gmail.com/PR_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1200,
+        "wires": [
+            [
+                "531f306b716c3a06"
+            ]
+        ]
+    },
+    {
+        "id": "a26768904e2b0468",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "PAP_S",
+        "topic": "/sammoroc@gmail.com/PAP_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1260,
+        "wires": [
+            [
+                "a12998476cedc234"
+            ]
+        ]
+    },
+    {
+        "id": "8ea54b96b4c08fdf",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "EA_S",
+        "topic": "/sammoroc@gmail.com/EA_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1320,
+        "wires": [
+            [
+                "3ee207772c41d545"
+            ]
+        ]
+    },
+    {
+        "id": "7b3dcfb3cab36f8d",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "ER_S",
+        "topic": "/sammoroc@gmail.com/ER_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1380,
+        "wires": [
+            [
+                "74f9b8f4b77dedbf"
+            ]
+        ]
+    },
+    {
+        "id": "fb79017db09a9c2c",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "EAP_S",
+        "topic": "/sammoroc@gmail.com/EAP_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1440,
+        "wires": [
+            [
+                "973d481231cb8e88"
+            ]
+        ]
+    },
+    {
+        "id": "4f7d7593da1b0dc4",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "FP_S",
+        "topic": "/sammoroc@gmail.com/FP_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1020,
+        "wires": [
+            [
+                "0dca7d39f09b070c"
+            ]
+        ]
+    },
+    {
+        "id": "8dd769c4cba9273b",
+        "type": "mqtt in",
+        "z": "4847aeaaefab87c8",
+        "name": "Fréquence_S",
+        "topic": "/sammoroc@gmail.com/Fréquence_S",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d85127867f77dee2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 1080,
+        "wires": [
+            [
+                "f7b33707e96241d8"
+            ]
+        ]
+    },
+    {
+        "id": "51aa5ac85dce7cf9",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Tension",
+        "info": "",
+        "x": 150,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "b5ae826f42aef4b9",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Courant",
+        "info": "",
+        "x": 150,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "3a4c845d580aa4c1",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Fréquence",
+        "info": "",
+        "x": 140,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "9a029269d89fb85e",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Puissance reactive",
+        "info": "",
+        "x": 110,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "ed9f5ef243e7aea3",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Puissance apparente",
+        "info": "",
+        "x": 100,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "2dbde4caf5443685",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Energie Active",
+        "info": "",
+        "x": 130,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "e26266bd6a8fb5a2",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Energie reactive",
+        "info": "",
+        "x": 120,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "d2c162222f183300",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Energie apparente",
+        "info": "",
+        "x": 110,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "036fed726af39f11",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Facteur de puissance",
+        "info": "",
+        "x": 100,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "76a87366b4c13fdf",
+        "type": "comment",
+        "z": "4847aeaaefab87c8",
+        "name": "Puissance active",
+        "info": "",
+        "x": 120,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "74982394c1421502",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 16",
+        "func": "msg.topic = \"tension_s\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 900,
+        "wires": [
+            [
+                "9f77b0f7a6b25406"
+            ]
+        ]
+    },
+    {
+        "id": "ad7f1a9ad2afe812",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 17",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 900,
+        "wires": [
+            [
+                "8785aeaf861873c5"
+            ]
+        ]
+    },
+    {
+        "id": "8785aeaf861873c5",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 18",
+        "func": "msg.topic = \"tension_s\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 900,
+        "wires": [
+            [
+                "2e815516ee4a3dec"
+            ]
+        ]
+    },
+    {
+        "id": "9f77b0f7a6b25406",
+        "type": "binary",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "property": "payload",
+        "pattern": "l32f => tension",
+        "x": 610,
+        "y": 900,
+        "wires": [
+            [
+                "ad7f1a9ad2afe812"
+            ]
+        ]
+    },
+    {
+        "id": "3f88def77421f367",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 19",
+        "func": "msg.topic = \"puissance_active_s\";\n\nlet payload = msg.payload;\n\n// Si c'est un Buffer → lire comme float\nif (Buffer.isBuffer(payload)) {\n    let buf = Buffer.from(payload);\n    msg.payload = Number(buf.readFloatBE(0).toFixed(2));\n}\n// Si c'est un nombre → garder tel quel\nelse if (typeof payload === \"number\") {\n    msg.payload = Number(payload.toFixed(2));\n}\n// Si c'est une string → convertir en nombre\nelse if (typeof payload === \"string\") {\n    let val = parseFloat(payload);\n    msg.payload = isNaN(val) ? 0 : Number(val.toFixed(2));\n}\n// Sinon → 0\nelse {\n    msg.payload = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1140,
+        "wires": [
+            [
+                "1370bb7ab2ab67b2"
+            ]
+        ]
+    },
+    {
+        "id": "8f806e02a15c566a",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 20",
+        "func": "msg.topic = \"courant_s\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 960,
+        "wires": [
+            [
+                "6dd163f1cb0d49a7"
+            ]
+        ]
+    },
+    {
+        "id": "ed0692a9858b7bf1",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 21",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 960,
+        "wires": [
+            [
+                "f1ee03084eb9d927"
+            ]
+        ]
+    },
+    {
+        "id": "f1ee03084eb9d927",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 22",
+        "func": "msg.topic = \"courant_s\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 960,
+        "wires": [
+            [
+                "2e815516ee4a3dec"
+            ]
+        ]
+    },
+    {
+        "id": "6dd163f1cb0d49a7",
+        "type": "binary",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "property": "payload",
+        "pattern": "l32f => courant",
+        "x": 610,
+        "y": 960,
+        "wires": [
+            [
+                "ed0692a9858b7bf1"
+            ]
+        ]
+    },
+    {
+        "id": "0dca7d39f09b070c",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 23",
+        "func": "msg.topic = \"facteur_puissance_s\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1020,
+        "wires": [
+            [
+                "c6b643aa068a9977"
+            ]
+        ]
+    },
+    {
+        "id": "923bfae6e78cce9a",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 24",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1020,
+        "wires": [
+            [
+                "babc0799395c58e9"
+            ]
+        ]
+    },
+    {
+        "id": "babc0799395c58e9",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 25",
+        "func": "msg.topic = \"facteur_puissance_s\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 1020,
+        "wires": [
+            [
+                "2e815516ee4a3dec"
+            ]
+        ]
+    },
+    {
+        "id": "c6b643aa068a9977",
+        "type": "binary",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "property": "payload",
+        "pattern": "l32f => powerfactor",
+        "x": 610,
+        "y": 1020,
+        "wires": [
+            [
+                "923bfae6e78cce9a"
+            ]
+        ]
+    },
+    {
+        "id": "f7b33707e96241d8",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 26",
+        "func": "msg.topic = \"frequence_s\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1080,
+        "wires": [
+            [
+                "d238c6ebe5a072d7"
+            ]
+        ]
+    },
+    {
+        "id": "3c4733a7e9dd1b6d",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 27",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1080,
+        "wires": [
+            [
+                "b557feec3f290af7"
+            ]
+        ]
+    },
+    {
+        "id": "b557feec3f290af7",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 28",
+        "func": "msg.topic = \"frequence_s\";\nmsg.payload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 1080,
+        "wires": [
+            [
+                "2e815516ee4a3dec"
+            ]
+        ]
+    },
+    {
+        "id": "d238c6ebe5a072d7",
+        "type": "binary",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "property": "payload",
+        "pattern": "l32f => frequance",
+        "x": 610,
+        "y": 1080,
+        "wires": [
+            [
+                "3c4733a7e9dd1b6d"
+            ]
+        ]
+    },
+    {
+        "id": "531f306b716c3a06",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 29",
+        "func": "msg.topic = \"puissance_reactive_s\";\nmsg.payload = msg.payload[0];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1200,
+        "wires": [
+            [
+                "1370bb7ab2ab67b2"
+            ]
+        ]
+    },
+    {
+        "id": "a12998476cedc234",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 30",
+        "func": "msg.topic = \"puissance_apparente_s\";\n\nlet val = msg.payload;\n\n// Si tableau → prendre le premier élément\nif (Array.isArray(val)) val = val[0];\n\n// Si Buffer → lire comme float\nif (Buffer.isBuffer(val)) {\n    val = Buffer.from(val).readFloatBE(0);\n}\n\n// Convertir en nombre\nval = parseFloat(val);\n\n// Si pas un nombre valide → mettre 0\nmsg.payload = isNaN(val) ? 0 : Number(val.toFixed(2));\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1260,
+        "wires": [
+            [
+                "1370bb7ab2ab67b2"
+            ]
+        ]
+    },
+    {
+        "id": "1370bb7ab2ab67b2",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 31",
+        "func": "let data = flow.get(\"puissances_s\") || {};\n\nif (!msg.topic) return null;\n\ndata[msg.topic] = msg.payload;\nflow.set(\"puissances_s\", data);\n\n// si les 3 valeurs sont reçues\nif (data.puissance_active_s !== undefined &&\n    data.puissance_reactive_s !== undefined &&\n    data.puissance_apparente_s !== undefined) {\n\n    let msg_out = { payload: data };\n    flow.set(\"puissances_s\", {}); // reset pour le prochain cycle\n    return msg_out;\n}\n\nreturn null; // sinon attendre les autres valeurs",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1200,
+        "wires": [
+            [
+                "11153ed346a2bef7"
+            ]
+        ]
+    },
+    {
+        "id": "11153ed346a2bef7",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 32",
+        "func": "// msg.payload contient déjà toutes les puissances\nlet p = msg.payload;\n\nmsg.payload = {\n    puissance_active_s: p.puissance_active_s,\n    puissance_reactive_s: p.puissance_reactive_s,\n    puissance_apparente_s: p.puissance_apparente_s\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 1200,
+        "wires": [
+            [
+                "ba61861b236e38b1"
+            ]
+        ]
+    },
+    {
+        "id": "ba61861b236e38b1",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 33",
+        "func": "// Stocker puissances dans global\nglobal.set(\"puissance_active_s\", msg.payload[\"puissance_active_s\"]);\nglobal.set(\"puissance_reactive_s\", msg.payload[\"puissance_reactive_s\"]);\nglobal.set(\"puissance_apparente_s\", msg.payload[\"puissance_apparente_s\"]);\nglobal.set(\"derniere_maj_s\", Date.now());\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ee207772c41d545",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 34",
+        "func": "msg.topic = \"energie_active_s\";\n\nlet buf = Buffer.from(msg.payload);\nlet haute = buf.readUInt32BE(0);\nlet basse = buf.readUInt32BE(4);\nlet valeur_brute = haute * Math.pow(2, 32) + basse;\n\n// Adapter le diviseur selon la valeur affichée sur PM5300\nlet diviseur = 1000; // à ajuster\nmsg.payload = Number((valeur_brute / diviseur).toFixed(3));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1320,
+        "wires": [
+            [
+                "0bf152423429e8fd"
+            ]
+        ]
+    },
+    {
+        "id": "74f9b8f4b77dedbf",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 35",
+        "func": "msg.topic = \"energie_reactive_s\";\n\nlet buf = Buffer.from(msg.payload);\nlet haute = buf.readUInt32BE(0);\nlet basse = buf.readUInt32BE(4);\nlet valeur_brute = haute * Math.pow(2, 32) + basse;\n\n// Adapter le diviseur selon la valeur affichée sur PM5300\nlet diviseur = 1000; // à ajuster\nmsg.payload = Number((valeur_brute / diviseur).toFixed(3));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1380,
+        "wires": [
+            [
+                "0bf152423429e8fd"
+            ]
+        ]
+    },
+    {
+        "id": "973d481231cb8e88",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 36",
+        "func": "msg.topic = \"energie_apparente_s\";\n\nlet buf = Buffer.from(msg.payload);\nlet haute = buf.readUInt32BE(0);\nlet basse = buf.readUInt32BE(4);\nlet valeur_brute = haute * Math.pow(2, 32) + basse;\n\n// Adapter le diviseur selon la valeur affichée sur PM5300\nlet diviseur = 1000; // à ajuster\nmsg.payload = Number((valeur_brute / diviseur).toFixed(3));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1440,
+        "wires": [
+            [
+                "0bf152423429e8fd"
+            ]
+        ]
+    },
+    {
+        "id": "2e815516ee4a3dec",
+        "type": "join",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "4",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1130,
+        "y": 980,
+        "wires": [
+            [
+                "6e7d11303f918f40"
+            ]
+        ]
+    },
+    {
+        "id": "6e7d11303f918f40",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 37",
+        "func": "// Stocker tension courant frequence fp dans global\nglobal.set(\"tension_s\", msg.payload[\"tension_s\"]);\nglobal.set(\"courant_s\", msg.payload[\"courant_s\"]);\nglobal.set(\"frequence_s\", msg.payload[\"frequence_s\"]);\nglobal.set(\"facteur_puissance_s\", msg.payload[\"facteur_puissance_s\"]);\nglobal.set(\"derniere_maj_s\", Date.now());\nreturn null; // ne pas envoyer, juste stocker",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0bf152423429e8fd",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 38",
+        "func": "let data = flow.get(\"energie_s\") || {};\n\nif (!msg.topic) return null;\n\ndata[msg.topic] = msg.payload;\nflow.set(\"energie_s\", data);\n\n// si les 3 valeurs sont reçues\nif (data.energie_active_s !== undefined &&\n    data.energie_reactive_s !== undefined &&\n    data.energie_apparente_s !== undefined) {\n\n    let msg_out = { payload: data };\n    flow.set(\"energie_s\", {}); // reset pour le prochain cycle\n    return msg_out;\n}\n\nreturn null; // sinon attendre les autres valeurs",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1380,
+        "wires": [
+            [
+                "49f7be7654de470e"
+            ]
+        ]
+    },
+    {
+        "id": "49f7be7654de470e",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 39",
+        "func": "let p = msg.payload;\n\nmsg.payload = {\n    energie_active_s: p.energie_active_s,\n    energie_reactive_s: p.energie_reactive_s,\n    energie_apparente_s: p.energie_apparente_s\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 1380,
+        "wires": [
+            [
+                "d31e935a4d279301"
+            ]
+        ]
+    },
+    {
+        "id": "d31e935a4d279301",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 40",
+        "func": "// Stocker énergies dans global\nglobal.set(\"energie_active_s\", msg.payload[\"energie_active_s\"]);\nglobal.set(\"energie_reactive_s\", msg.payload[\"energie_reactive_s\"]);\nglobal.set(\"energie_apparente_s\", msg.payload[\"energie_apparente_s\"]);\nglobal.set(\"derniere_maj_s\", Date.now());\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "768fad7cb5fa1c68",
+        "type": "function",
+        "z": "4847aeaaefab87c8",
+        "name": "function 41",
+        "func": "function cleanVal(v) {\n    let n = parseFloat(v);\n    return isNaN(n) ? null : Number(n.toFixed(2));\n}\n\n// Lire toutes les valeurs\nlet tension    = cleanVal(global.get(\"tension_s\"));\nlet courant    = cleanVal(global.get(\"courant_s\"));\nlet frequence  = cleanVal(global.get(\"frequence_s\"));\nlet fp         = cleanVal(global.get(\"facteur_puissance_s\"));\nlet pa         = cleanVal(global.get(\"puissance_active_s\"));\nlet pr         = cleanVal(global.get(\"puissance_reactive_s\"));\nlet pap        = cleanVal(global.get(\"puissance_apparente_s\"));\nlet ea         = cleanVal(global.get(\"energie_active_s\"));\nlet er         = cleanVal(global.get(\"energie_reactive_s\"));\nlet eap        = cleanVal(global.get(\"energie_apparente_s\"));\n\n// Si une valeur critique est null → ne pas envoyer\nif (tension === null || courant === null || \n    frequence === null || ea === null) {\n    node.warn(\"Donnees pas encore pretes — attente...\");\n    return null; // ← ne publie rien !\n}\n\nmsg.payload = {\n    \"tension_s\":             tension,\n    \"courant_s\":             courant,\n    \"frequence_s\":           frequence,\n    \"facteur_puissance_s\":   fp ?? 0,\n    \"puissance_active_s\":    pa ?? 0,\n    \"puissance_reactive_s\":  pr ?? 0,\n    \"puissance_apparente_s\": pap ?? 0,\n    \"energie_active_s\":      ea,\n    \"energie_reactive_s\":    er ?? 0,\n    \"energie_apparente_s\":   eap ?? 0,\n    \"timestamp_s\":           new Date().toISOString(),\n    \"statut_s\":              (Date.now() - (global.get(\"derniere_maj_s\") || 0)) < 360000 \n                             ? \"connecte\" : \"deconnecte\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 1560,
+        "wires": [
+            [
+                "1d6b17b862e8601a",
+                "42023c5013334122"
+            ]
+        ]
+    },
+    {
+        "id": "dc8dd85dcf18e0b8",
+        "type": "inject",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 370,
+        "y": 1560,
+        "wires": [
+            [
+                "768fad7cb5fa1c68"
+            ]
+        ]
+    },
+    {
+        "id": "1d6b17b862e8601a",
+        "type": "mqtt out",
+        "z": "4847aeaaefab87c8",
+        "name": "",
+        "topic": "agricole/site/solaire/telemetry",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "16709b3c17b1162c",
+        "x": 820,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "42023c5013334122",
+        "type": "debug",
+        "z": "4847aeaaefab87c8",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "d85127867f77dee2",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt.dioty.co",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "16709b3c17b1162c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": 1883,
+        "clientid": "raspberry-site",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "aff11c62483231e4",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-contrib-binary": "0.1.3"
+        }
+    }
+]
