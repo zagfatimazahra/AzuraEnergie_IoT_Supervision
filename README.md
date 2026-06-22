@@ -170,9 +170,8 @@ Grafana sera accessible à `http://localhost:3000`.
 AzuraEnergie_IoT_Supervision/
 │
 ├── backend/                    # Back-end FastAPI (avec modèle ML intégré)
-│   ├── main.py                  # Application principale + Random Forest
 │   ├── bridge.py                # Pont MQTT → InfluxDB Cloud
-│   └── requirements.txt
+│   ├── main.py                  # Application principale + Random Forest
 │
 ├── frontend/                   # Tableau de bord React
 │   ├── src/
