@@ -1,6 +1,6 @@
-# Plateforme Intelligente de Supervision Énergétique IoT pour Site Agricole
+# Mise en Place d'une Solution de Suivi de Consommation Énergétique d'un Site Agricole
 
-## Intelligent IoT Energy Supervision Platform for Agricultural Site
+## Implementation of an Energy Consumption Monitoring Solution for an Agricultural Sitee
 
 ##  Master IoT — Projet de Fin d'Études
 
@@ -169,8 +169,8 @@ Grafana sera accessible à `http://localhost:3000`.
 ```
 AzuraEnergie_IoT_Supervision/
 │
-├── backend/                    # Back-end FastAPI
-│   ├── main.py                  # Application principale
+├── backend/                    # Back-end FastAPI (avec modèle ML intégré)
+│   ├── main.py                  # Application principale + Random Forest
 │   ├── bridge.py                # Pont MQTT → InfluxDB Cloud
 │   └── requirements.txt
 │
@@ -179,13 +179,15 @@ AzuraEnergie_IoT_Supervision/
 │   │   ├── App.jsx
 │   │   ├── pages/               # 7 pages fonctionnelles
 │   │   └── components/
-│   └── package.json
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── nodered/                    # Flows Node-RED
-│   ├── flow_AzuraEnergie.json
-│     
+│   ├── flow_supervision_azuraEnergie.json
+│
 ├── maquette/                   # Code et configuration maquette
-│   ├── ecode_maquette.ino
+│   ├── code_maque.ino
 │   ├── telegraf.conf
 │   ├── docker-compose.yml
 │   └── grafana_dashboard.json
