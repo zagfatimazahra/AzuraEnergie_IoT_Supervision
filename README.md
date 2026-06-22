@@ -171,7 +171,7 @@ AzuraEnergie_IoT_Supervision/
 │
 ├── backend/                    # Back-end FastAPI (avec modèle ML intégré)
 │   ├── bridge.py                # Pont MQTT → InfluxDB Cloud
-│   ├── main.py                  # Application principale + Random Forest
+│   └── main.py                  # Application principale + Random Forest
 │
 ├── frontend/                   # Tableau de bord React
 │   ├── src/
@@ -183,13 +183,13 @@ AzuraEnergie_IoT_Supervision/
 │   └── vite.config.js
 │
 ├── nodered/                    # Flows Node-RED
-│   ├── flow_supervision_azuraEnergie.json
+│   └── flow_supervision_azuraEnergie.json
 │
 ├── maquette/                   # Code et configuration maquette
 │   ├── code_maquette.ino
-│   ├── telegraf.conf
 │   ├── docker-compose.yml
-│   └── grafana_dashboard.json
+│   ├── grafana_dashboard.json
+│   └── telegraf.conf
 │
 └── docs/                       # Documentation et schémas
     ├── architecture.png
